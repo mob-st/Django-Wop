@@ -1,0 +1,221 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Glegoo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'appwop/css/estilos-index.css' %}">
+    <link rel="stylesheet" href="{% static 'appwop/css/estilocarrito.css' %}">
+    <!-- css bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Carrito</title>
+    <link rel="icon" href="{% static 'appwop/Img/logo2.png' %}">
+</head>
+<body style="background-color:#522900;">
+    <nav id="marginnav" class="navbar navbar-expand-lg navbar-light bg-light">
+        <div id="fondo" class="container-fluid">
+          <a id="cafenav" class="navbar-brand" href="/wop/">World of pets</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item1">
+                <a id="cafenav2" class="nav-link active" href="/contacto/">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a id="cafenav2" class="nav-link" href="/carrito/">Carrito</a>
+              </li>
+              <li class="nav-item2">
+                <a id="cafenav2" class="nav-link" href="/wiki/" style="margin-right: 10px;">Wiki</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <br>
+      <h2 id="hdos">Carrito</h2>
+      <section class="productos">
+        <div class="col mx-auto align-items-center">
+          <br>
+          <div>
+            <div>
+                <div class="card col-lg-3 col-md-3 col-12 w-30">
+                    <img id="imagenes-productos" src="https://cdnx.jumpseller.com/doggyland/image/19266111/resize/640/640?1636329716" width="150" height="175" class="imagenob3" alt="...">
+                
+                    <h5 id="nombres-productos">Correa Police</h5>
+                    <p id="descripcion-productos">Correa echa de cuerda resistente con diseño de police</p>
+                </div>
+                <div>
+                    <p id="precio1">$8.720</p>
+                    <button id="eliminar-de-carrito1" type="button" class="btn btn-danger">Eliminar de carrito</button>
+                    <img src="Img/barrita-separacion.jpg" class="barrita-separacion">
+                </div>
+            </div>
+            <div>
+                <div class="card col-lg-3 col-md-3 col-12 w-30">
+                    <img id="imagenes-productos" src="https://ae01.alicdn.com/kf/Ha8be297693a1413392117732fde40709l/Disfraz-de-gato-disfraz-de-Anime-ropa-de-Halloween-para-mascotas-disfraz-de-cachorro-capa-de.jpg_Q90.jpg_.webp" width="150" height="150" class="imagenob2" alt="...">
+    
+                    <h5 id="nombres-productos">Capa de los akatsuki</h5>
+                    <p id="descripcion-productos">19 cm de diametro
+                    Colores: Rojo, Amarillo
+                    Material Acrilico Transparente</p>
+                    
+                </div>
+                <div>
+                    <p id="precio2">$5.990</p>
+                    <button id="eliminar-de-carrito2" type="button" class="btn btn-danger">Eliminar de carrito</button>
+                    <img src="Img/barrita-separacion.jpg" class="barrita-separacion">
+                </div>
+                </div>
+                <div class="card col-lg-3 col-md-3 col-12 w-30">
+                    <img id="imagenes-productos" src="https://www.amigales.cl/pub/media/catalog/product/cache/c687aa7517cf01e65c009f6943c2b1e9/h/a/habitrail-retreat.jpg" width="150" height="150" class="imagenob2" alt="...">
+                    
+                    <h5 id="nombres-productos">Jaula para hamsters mediana</h5>
+                    <p id="descripcion-productos">Espacio de sobra para que nuestro amigo juegue</p>
+                </div>
+                <div>
+                    <p id="precio3">$19.990</p>
+                    <button id="eliminar-de-carrito3" type="button" class="btn btn-danger">Eliminar de carrito</button>
+                    <img src="Img/barrita-separacion.jpg" class="barrita-separacion">
+                </div>
+                <p id="resultado">$34.700</p>
+                <p class="Total">Total:</p>
+                <button id="color-boton-pagar"type="button" class="btn btn-outline-primary">Pagar</button>
+                
+          </div>
+      </div>
+      <br>
+      <br>
+      <br>
+    </section>
+    <br>
+    <br>
+    <h2 id="hdos">Seguimiento de ultima compra</h2>
+    <div id="barra-seg" class="progress">
+        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+    </div>
+    <br>
+    <br>
+    <footer  class="text-center text-lg-start bg-light text-muted" aria-expanded="false">
+        <!-- Section: Social media -->
+        <section
+            class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+        >
+            <!-- Left -->
+            <div class="me-5 d-none d-lg-block">
+            <span>Get connected with us on social networks:</span>
+            </div>
+            <!-- Left -->
+    
+            <!-- Right -->
+            <div>
+            <a href="" class="me-4 text-reset">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+                <i class="fab fa-google"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+                <i class="fab fa-github"></i>
+            </a>
+            </div>
+            <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+    
+        <!-- Section: Links  -->
+        <section class="Footer">
+            <div class="container text-center text-md-start mt-5">
+            <!-- Grid row -->
+            <div class="row mt-3">
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <!-- Content -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                    <i class="fas fa-gem me-3"></i>World of pets
+                </h6>
+                <p>
+                    Somos una empresa distribuidora de diversos elementos para el cuidado de sus mascotas
+                </p>
+                </div>
+                <!-- Grid column -->
+    
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                    Products
+                </h6>
+                <p>
+                    <a href="#!" class="text-reset">Viejos</a>
+                </p>
+                <p>
+                    <a href="#!" class="text-reset">Nuevos</a>
+                </p>
+                <p>
+                    <a href="#!" class="text-reset">Recientes</a>
+                </p>
+                </div>
+                <!-- Grid column -->
+    
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                    Hipervinculos
+                </h6>
+                <p>
+                    <a href="#!" class="text-reset">Settings</a>
+                </p>
+                <p>
+                    <a href="#!" class="text-reset">Orders</a>
+                </p>
+                <p>
+                    <a href="#!" class="text-reset">Help</a>
+                </p>
+                </div>
+                <!-- Grid column -->
+    
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                    Contact
+                </h6>
+                <p><i class="fas fa-home me-3"></i> Puente Alto, PA 10012, CL</p>
+                <p>
+                    <i class="fas fa-envelope me-3"></i>
+                    Somos-world-of-pets@gmail.com
+                </p>
+                <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+                <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+                </div>
+                <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+                </div>
+            </section>
+            <!-- Section: Links  -->
+            <!-- Copyright -->
+            <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+                © 2021 Copyright:
+                <a class="text-reset fw-bold" href="https://mdbootstrap.com/">Worldofpets.com</a>
+            </div>
+            <!-- Copyright -->
+            </footer>
+      <!-- js bootstrap-->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    </body>
+</html>

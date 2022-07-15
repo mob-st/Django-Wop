@@ -1,0 +1,45 @@
+.introduccion{
+    display: inline;
+    position: relative;
+    flex-direction: column;
+    text-align: center;
+    color: #ece6e6;
+}
+
+.animal-dia{
+    margin-top: 80px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #ece6e6;
+    border: 8px solid burlywood;
+    border-radius: 12px;
+    width: 80%;
+    padding: 30px;
+}
+
+#info{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    text-align: left;
+    width: 100%;
+}
+
+.seccion{
+    font-family: 'Glegoo';
+    font-size: x-large;
+    color:#804000;
+    text-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+}
+
+.imagen{
+    display: block;
+    position: relative;
+    flex-direction: column;
+    color: #ece6e6;
+    width: 290px;
+    height: 250px;
+    border: 5px solid #522900;
+    border-radius: 12px;
+    margin: auto;
+}

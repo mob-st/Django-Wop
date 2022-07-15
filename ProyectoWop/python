@@ -1,0 +1,6 @@
+BEGIN;
+--
+-- Create model Producto
+--
+CREATE TABLE "appwop_producto" ("id" integer NOT NULL PRIMARY KEY AUTOINCREMENT, "nombre" varchar(30) NOT NULL, "descripcion" varchar(30) NOT NULL, "precio" integer NOT NULL, "imagen" varchar(100) NOT NULL);
+COMMIT;

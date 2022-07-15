@@ -1,0 +1,55 @@
+
+.form-cuenta{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    background: #eceff1;
+    padding: 30px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.form-cuenta h4{
+    font-size: 35px;
+    margin-bottom: 35px;
+}
+
+.inputs{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 3px solid #804000;
+}
+
+.input-comentario{
+    height: 150px;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 3px solid #804000;
+}
+
+.boton1{
+    position: relative;
+    left: 47%;
+    width: 25%;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: burlywood;
+    border: 3px solid #804000;
+    color: #804000;
+}
+.form-cuenta .boton2{
+    position: relative;
+    left: 47%;
+    width: 25%;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #804000;
+    border: 3px solid burlywood;
+    color: burlywood;
+}

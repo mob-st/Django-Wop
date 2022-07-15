@@ -1,0 +1,117 @@
+#cafenav{
+    font-family: 'Courgette', cursive;
+    color: #804000;
+    font-size: 25px;
+}
+#cafenav2{
+    color: #804000;
+}
+#searchnav{
+    border: 3px solid #804000;
+    
+}
+.d-flex{
+    margin-bottom: 4px;
+}
+
+#color-boton-search{
+    margin-right: 10px;
+    margin-left: 4px;
+    border: 3px solid #804000;
+    color: #804000;
+    background-color: burlywood;
+}
+
+#boton-l-r{
+    border: 3px solid #804000;
+    color: #804000;
+    background-color: burlywood;
+    margin-bottom: 4px;
+}
+
+#marginnav{
+    margin: 0;
+    padding: 0;
+}
+#fondo{
+    background-color: burlywood;
+    border: 10px solid burlywood;
+}
+
+.carousel-inner{
+    background-color: #804000;
+}
+
+#color-boton-filtrar{
+    border: 3px solid #804000;
+    color: #804000;
+    background-color: burlywood;
+}
+#hdos{
+    color: white;
+}
+
+.productos .card{
+    width: 260px;
+    height: 395px;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem; 
+    border-radius: 1rem 1rem 1rem 1rem;
+    margin: auto;
+    margin-bottom: 25px; 
+}
+
+.productos-2 .card{
+    width: 260px;
+    height: 395px;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem; 
+    border-radius: 1rem 1rem 1rem 1rem;
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+#iconoCarrito{
+    position: absolute;
+    bottom: 15px;
+    left: 70%;
+}
+#nombres-productos{
+    position: absolute;
+    top:50%;
+    color: #804000;
+
+}
+
+#imagenes-productos{
+    position: absolute;
+    top: 5%;
+    width: 150px;
+    height: 150px;
+}
+
+#descripcion-productos{
+    position: absolute;
+    top: 60%;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #686766;
+}
+
+#precios{
+    font-family: 'Glegoo';
+    position: absolute;
+    font-size: xx-large;
+    bottom: 0px;
+    left: 10%;
+}
